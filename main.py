@@ -1,3 +1,6 @@
+from upgrade import func
+
+
 def main():
     print("Hello world!")
     print(f"{3 + 4 = }")
@@ -11,6 +14,9 @@ def not_main(number: str):
     else:
         print(f"I wanted a number, not {type(number).__name__}")
 
+
+def upgrade():
+    func()
 
 
 if __name__ == "__main__":
